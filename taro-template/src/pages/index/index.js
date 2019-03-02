@@ -1,11 +1,11 @@
 import Taro, { Component } from '@tarojs/taro'
-import { View, Button, Text } from '@tarojs/components'
+import { View, Text } from '@tarojs/components'
+import { AtButton } from 'taro-ui'
 import { connect } from '@tarojs/redux'
 
 import { add, minus, asyncAdd } from '../../actions/counter'
 
-import './index.less'
-
+import './index.scss'
 
 @connect(({ counter }) => ({
   counter
@@ -21,8 +21,7 @@ import './index.less'
   }
 }))
 class Index extends Component {
-
-    config = {
+  config = {
     navigationBarTitleText: '首页'
   }
 
@@ -39,9 +38,9 @@ class Index extends Component {
   render () {
     return (
       <View className='index'>
-        <Button className='add_btn' onClick={this.props.add}>+</Button>
-        <Button className='dec_btn' onClick={this.props.dec}>-</Button>
-        <Button className='dec_btn' onClick={this.props.asyncAdd}>async</Button>
+        <AtButton type='primary' onClick={this.props.add}>Add One</AtButton>
+        <AtButton type='primary' className='space' onClick={this.props.dec}>Dec One</AtButton>
+        <AtButton type='primary' className='space' onClick={this.props.add}>async Add One</AtButton>
         <View><Text>{this.props.counter.num}</Text></View>
         <View><Text>Hello, World</Text></View>
       </View>

@@ -107,11 +107,11 @@
   dependencies:
     csso "^3.5.0"
 
-"@tarojs/plugin-less@1.2.14":
+"@tarojs/plugin-sass@1.2.14":
   version "1.2.14"
-  resolved "http://registry.npm.taobao.org/@tarojs/plugin-less/download/@tarojs/plugin-less-1.2.14.tgz#fd2687ea05c6010a8f1f3ea7e412bb324c6fb761"
+  resolved "http://registry.npm.taobao.org/@tarojs/plugin-sass/download/@tarojs/plugin-sass-1.2.14.tgz#186bad585c0b8f7809b599c6fa14e482aeb77a2d"
   dependencies:
-    less "^3.0.4"
+    node-sass "^4.11.0"
 
 "@tarojs/plugin-uglifyjs@1.2.14":
   version "1.2.14"
@@ -250,8 +250,8 @@
     csstype "^2.2.0"
 
 "@types/webpack-env@^1.13.6":
-  version "1.13.7"
-  resolved "http://registry.npm.taobao.org/@types/webpack-env/download/@types/webpack-env-1.13.7.tgz#137a4e57aa31ab57b1baf66f5dc3b6bf085e9944"
+  version "1.13.8"
+  resolved "http://registry.npm.taobao.org/@types/webpack-env/download/@types/webpack-env-1.13.8.tgz#859e35ab1811eccd35e6b8d692a622b0fa7b31ec"
 
 "@webassemblyjs/ast@1.5.12":
   version "1.5.12"
@@ -1635,7 +1635,7 @@ clone@^1.0.2:
   version "1.0.4"
   resolved "http://registry.npm.taobao.org/clone/download/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
 
-clone@^2.1.1, clone@^2.1.2:
+clone@^2.1.1:
   version "2.1.2"
   resolved "http://registry.npm.taobao.org/clone/download/clone-2.1.2.tgz#1b7f4b9f591f1e8f83670401600345a02887435f"
 
@@ -3655,21 +3655,6 @@ less@3.0.4:
     request "^2.83.0"
     source-map "~0.6.0"
 
-less@^3.0.4:
-  version "3.9.0"
-  resolved "http://registry.npm.taobao.org/less/download/less-3.9.0.tgz#b7511c43f37cf57dc87dffd9883ec121289b1474"
-  dependencies:
-    clone "^2.1.2"
-  optionalDependencies:
-    errno "^0.1.1"
-    graceful-fs "^4.1.2"
-    image-size "~0.5.0"
-    mime "^1.4.1"
-    mkdirp "^0.5.0"
-    promise "^7.1.1"
-    request "^2.83.0"
-    source-map "~0.6.0"
-
 levn@^0.3.0, levn@~0.3.0:
   version "0.3.0"
   resolved "http://registry.npm.taobao.org/levn/download/levn-0.3.0.tgz#3b09924edf9f083c0490fdd4c0bc4421e04764ee"
@@ -4266,7 +4251,7 @@ node-pre-gyp@^0.10.0:
     semver "^5.3.0"
     tar "^4"
 
-node-sass@4.11.0:
+node-sass@4.11.0, node-sass@^4.11.0:
   version "4.11.0"
   resolved "http://registry.npm.taobao.org/node-sass/download/node-sass-4.11.0.tgz#183faec398e9cbe93ba43362e2768ca988a6369a"
   dependencies:

@@ -1,7 +1,7 @@
 {
   "miniprogramRoot": "./dist",
   "projectname": "taro-template",
-  "description": "template",
+  "description": "Template with Taro UI",
   "appid": "touristappid",
   "setting": {
     "urlCheck": true,
