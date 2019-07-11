@@ -249,6 +249,13 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
+"@types/react@^16.7.3":
+  version "16.8.23"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.23.tgz#ec6be3ceed6353a20948169b6cb4c97b65b97ad2"
+  dependencies:
+    "@types/prop-types" "*"
+    csstype "^2.2.0"
+
 "@types/webpack-env@^1.13.6":
   version "1.13.8"
   resolved "http://registry.npm.taobao.org/@types/webpack-env/download/@types/webpack-env-1.13.8.tgz#859e35ab1811eccd35e6b8d692a622b0fa7b31ec"
@@ -1266,6 +1273,10 @@ binary-extensions@^1.0.0:
   version "1.13.0"
   resolved "http://registry.npm.taobao.org/binary-extensions/download/binary-extensions-1.13.0.tgz#9523e001306a32444b907423f1de2164222f6ab1"
 
+bind-decorator@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/bind-decorator/-/bind-decorator-1.0.11.tgz#e41bc06a1f65dd9cec476c91c5daf3978488252f"
+
 block-stream@*:
   version "0.0.9"
   resolved "http://registry.npm.taobao.org/block-stream/download/block-stream-0.0.9.tgz#13ebfe778a03205cfe03751481ebb4b3300c126a"
@@ -1582,7 +1593,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.5:
+classnames@^2.2.5, classnames@^2.2.6:
   version "2.2.6"
   resolved "http://registry.npm.taobao.org/classnames/download/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
 
@@ -1972,6 +1983,10 @@ dashdash@^1.12.0:
 date-now@^0.1.4:
   version "0.1.4"
   resolved "http://registry.npm.taobao.org/date-now/download/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
+
+dayjs@^1.7.7:
+  version "1.8.15"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.15.tgz#7121bc04e6a7f2621ed6db566be4a8aaf8c3913e"
 
 debug@*, debug@^4.1.0:
   version "4.1.1"
@@ -3795,8 +3810,8 @@ lodash.keys@^3.0.0:
     lodash.isarray "^3.0.0"
 
 lodash.mergewith@^4.6.0:
-  version "4.6.1"
-  resolved "http://registry.npm.taobao.org/lodash.mergewith/download/lodash.mergewith-4.6.1.tgz#639057e726c3afbdb3e7d42741caa8d6e4335927"
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.2.tgz#617121f89ac55f59047c7aec1ccd6654c6590f55"
 
 lodash.restparam@^3.0.0:
   version "3.6.1"
@@ -5872,6 +5887,17 @@ tar@^4:
     mkdirp "^0.5.0"
     safe-buffer "^5.1.2"
     yallist "^3.0.2"
+
+taro-ui@^2.0.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/taro-ui/-/taro-ui-2.2.1.tgz#26f74f1f5e278888a87ee921ac71f33dffcb8601"
+  dependencies:
+    "@types/react" "^16.7.3"
+    bind-decorator "^1.0.11"
+    classnames "^2.2.6"
+    dayjs "^1.7.7"
+    lodash "^4.17.10"
+    prop-types "^15.6.2"
 
 text-table@^0.2.0, text-table@~0.2.0:
   version "0.2.0"
